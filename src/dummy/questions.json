@@ -1,0 +1,45 @@
+[
+    {
+        "question" : "Replace all 0's with 5",
+        "description" : "You are given an integer N. You need to convert all zeroes of N to 5.",
+        "examples" : [
+            {
+                "input" : "N = 1004",
+                "output" : "1554",
+                "explaination" : "There are two zeroes in 1004 on replacing all zeroes with \"5\", the new number will be \"1554\"."
+            },
+            {
+                "input" : "N = 121",
+                "output" : "121",
+                "explaination" : "Since there are no zeroes in \"121\", the number remains as \"121\"."
+            }
+        ],
+        "constraints" : [
+            "1 <= n <= 10000",
+            "1 <= n <= 10000"
+        ],
+        "askedIn" : ["amazon"],
+        "level" : "easy"
+    },
+    {
+        "question" : "Replace all 0's with 5",
+        "description" : "You are given an integer N. You need to convert all zeroes of N to 5.",
+        "examples" : [
+            {
+                "input" : "N = 1004",
+                "output" : "1554",
+                "explaination" : "There are two zeroes in 1004 on replacing all zeroes with \"5\", the new number will be \"1554\"."
+            },
+            {
+                "input" : "N = 121",
+                "output" : "121",
+                "explaination" : "Since there are no zeroes in \"121\", the number remains as \"121\"."
+            }
+        ],
+        "constraints" : [
+            "1 <= n <= 10000"
+        ],
+        "askedIn" : ["amazon", "payTm"],
+        "level" : "easy"
+    }
+]

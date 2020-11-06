@@ -1,0 +1,236 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+    margin-left: -9rem;
+    margin-top: 1rem;
+  text-align: center;
+}
+
+.top{
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+}
+.left{
+    color: white;
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.header{
+    display: flex;
+    margin-left: 2rem;
+}
+.dot{
+    width: 15px;
+    height:15px;
+    border-radius: 8px;
+    background-color: orange;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+.infos{
+    font-size: 90%;
+    font-weight: bold;
+}
+.infos-1{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 300%;
+    font-weight: bold;
+}
+.infos-2{
+    margin-left: 2rem;
+}
+.button-1{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 4rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.button-1:hover{
+    background-color: orange;
+    color: white;
+    transition: .3s;
+}
+.middle{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.subscribe{
+    color: orange;
+    font-size: 100%;
+    font-weight: bold;
+}
+.mid-infos{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 300%;
+    font-weight: bold;
+}
+.mid-infos-2{
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+.button-2{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.button-2:hover{
+    background-color: orange;
+    color: white;
+    transition: .3s;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    height: 100%;
+    box-shadow: 0 50vh 0 50vh #000;
+}
+.footer-top{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+.f-t-one{
+flex: 1;
+}
+.f-t-two{
+flex: 1;
+}
+.f-t-fo-a{
+    font-weight: bold;
+}
+.f-t-t-b ul li{
+    font-size: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin-left: -2.5rem;
+    font-weight: bold;
+}
+.f-t-three{
+flex: 1;
+}
+.f-t-four{
+    flex: 1;
+}
+
+.footer-line{
+   margin: 2rem;
+   margin-left: 18rem;
+    width: 40rem;
+    height: 2px;
+    background-color: white;
+    border-radius: 3px;
+}
+.foot{
+    display: flex;
+    margin: 3rem;
+}
+.footer-end-1{
+    flex: 1;
+    margin-left: 4rem;
+}
+.footer-end-2{
+    flex: 1;
+    margin-left: 18rem;
+}
+
+
+.smGlobalBtn { /* global button class */
+    margin: 2px;
+    margin-left: 1.5rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}

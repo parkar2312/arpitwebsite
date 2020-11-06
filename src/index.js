@@ -3,10 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'typeface-roboto';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Amplify, { Auth } from 'aws-amplify';
+import {Provider} from 'react-redux';
+import store from './components/store';
+
+Amplify.configure( { 
+  Auth: {
+    mandatorySignIn: true, 
+    region: 'ap-south-1',
+    userPoolId: 'ap-south-1_4YS5vW51Y',
+    userPoolWebClientId: '1n4oj75d2mr4fphplmr3ef2s15',
+  } 
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App/>
+      </Provider>,
   </React.StrictMode>,
   document.getElementById('root')
 );
